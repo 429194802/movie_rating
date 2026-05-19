@@ -12,6 +12,16 @@ const initialData = {
   }
 };
 
+let sharedStore;
+
+export function getStore() {
+  if (!sharedStore) {
+    sharedStore = new Store(path.resolve(process.env.DATA_FILE || './data/store.json'));
+  }
+
+  return sharedStore;
+}
+
 export class Store {
   constructor(filePath) {
     this.filePath = filePath;

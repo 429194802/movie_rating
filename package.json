@@ -4,22 +4,21 @@
   "description": "A movie rating and review site with scheduled Douban now-playing imports.",
   "type": "module",
   "scripts": {
-    "dev": "node --watch src/server.js",
+    "dev": "next dev -H 127.0.0.1",
+    "build": "next build",
     "start": "node src/server.js",
     "sync": "node scripts/sync.js",
     "verify:ui": "node scripts/verify-ui.js",
-    "check": "node --check src/server.js && node --check src/lib/store.js && node --check src/lib/douban.js"
+    "check": "node --check src/server.js && node --check src/lib/store.js && node --check src/lib/douban.js && node --check scripts/sync.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0",
-    "cookie-parser": "^1.4.7",
     "dotenv": "^16.4.7",
-    "ejs": "^3.1.10",
-    "express": "^4.21.2",
-    "helmet": "^8.0.0",
-    "morgan": "^1.10.0",
+    "next": "^15.1.7",
     "node-cron": "^3.0.3",
-    "nanoid": "^5.0.9"
+    "nanoid": "^5.0.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.49.1"
