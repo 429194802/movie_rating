@@ -17,7 +17,5 @@ services:
         value: 新片评分
       - key: DOUBAN_CITY
         value: beijing
-      - key: SYNC_CRON
-        value: 0 */6 * * *
       - key: ADMIN_SYNC_TOKEN
         generateValue: true

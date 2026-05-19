@@ -6,17 +6,16 @@
   "scripts": {
     "dev": "next dev -H 127.0.0.1",
     "build": "next build",
-    "start": "node src/server.js",
+    "start": "next start",
     "sync": "node scripts/sync.js",
     "verify:ui": "node scripts/verify-ui.js",
-    "check": "node --check src/server.js && node --check src/lib/store.js && node --check src/lib/douban.js && node --check scripts/sync.js"
+    "check": "node --check src/lib/store.js && node --check src/lib/douban.js && node --check src/lib/sync.js && node --check scripts/sync.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0",
     "dotenv": "^16.4.7",
-    "next": "^15.1.7",
-    "node-cron": "^3.0.3",
     "nanoid": "^5.0.9",
+    "next": "^15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

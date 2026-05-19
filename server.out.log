@@ -1,13 +1,13 @@
 
 > movie-rating@1.0.0 dev
-> next dev -H 127.0.0.1 -p 3002
+> next dev -H 127.0.0.1
 
    ▲ Next.js 15.5.18
-   - Local:        http://127.0.0.1:3002
-   - Network:      http://127.0.0.1:3002
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
 
  ✓ Starting...
- ✓ Ready in 2.6s
- ✓ Compiled /middleware in 209ms (117 modules)
+ ✓ Ready in 2.5s
+ ✓ Compiled /middleware in 202ms (117 modules)
  ○ Compiling / ...
- ✓ Compiled / in 763ms (585 modules)
+ ✓ Compiled / in 869ms (585 modules)

@@ -1,10 +1,10 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-Application code lives in `src/`. Next.js App Router pages and route handlers are in `src/app/`, the production custom Next.js server with scheduled sync is in `src/server.js`, data access is in `src/lib/store.js`, and Douban importing logic is in `src/lib/douban.js`. Utility scripts are in `scripts/`, and persistent runtime data is in `data/`.
+Application code lives in `src/`. Next.js App Router pages and route handlers are in `src/app/`, data access is in `src/lib/store.js`, shared sync logic is in `src/lib/sync.js`, and Douban importing logic is in `src/lib/douban.js`. Utility scripts are in `scripts/`, and persistent runtime data is in `data/`.
 
 ## Build, Test, and Development Commands
-Run `npm install` once before development. Use `npm run dev` to start the local Next.js server with file watching, `npm run build` before production deployment, `npm start` for production mode, `npm run sync` to manually import current Douban movies, and `npm run check` for JavaScript syntax checks.
+Run `npm install` once before development. Use `npm run dev` to start the local Next.js server, `npm run build` before production deployment, `npm start` for production mode through `next start`, `npm run sync` to manually import current Douban movies, and `npm run check` for JavaScript syntax checks.
 
 ## Coding Style & Naming Conventions
 Use modern ES modules, 2-space indentation for JavaScript, and clear camelCase names for variables and functions. Keep route handlers thin; move parsing, persistence, or formatting logic into `src/lib/`. Name Next.js pages and route handlers according to the App Router conventions.
