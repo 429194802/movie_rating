@@ -8,12 +8,15 @@
     "build": "next build",
     "start": "next start",
     "sync": "node scripts/sync.js",
+    "migrate:mysql": "node scripts/migrate-json-to-mysql.js",
+    "db:comments": "node scripts/apply-mysql-comments.js",
     "verify:ui": "node scripts/verify-ui.js",
-    "check": "node --check src/lib/store.js && node --check src/lib/douban.js && node --check src/lib/sync.js && node --check scripts/sync.js"
+    "check": "node --check src/lib/store.js && node --check src/lib/douban.js && node --check src/lib/sync.js && node --check scripts/sync.js && node --check scripts/migrate-json-to-mysql.js && node --check scripts/apply-mysql-comments.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0",
     "dotenv": "^16.4.7",
+    "mysql2": "^3.22.3",
     "nanoid": "^5.0.9",
     "next": "^15.1.7",
     "react": "^19.0.0",

@@ -8,6 +8,7 @@
 - `your-domain.example`：你的域名；没有域名时可先使用公网 IP
 - `<your-repo-url>`：项目 Git 仓库地址
 - `replace-with-a-long-random-token`：后台同步接口密钥
+- `replace-with-a-strong-password`：MySQL 应用用户密码
 
 ## 1. 部署前检查
 
@@ -35,7 +36,7 @@ ssh -p your-ssh-port root@your-server-ip
 
 ```bash
 apt update
-apt install -y git nginx curl ca-certificates
+apt install -y git nginx curl ca-certificates mysql-server
 curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
 apt install -y nodejs
 node -v
@@ -43,6 +44,29 @@ npm -v
 ```
 
 确认 Node.js 版本为 20 或更高。
+
+确认 MySQL 服务运行：
+
+```bash
+systemctl enable --now mysql
+systemctl status mysql
+```
+
+初始化 MySQL 8 数据库和应用用户：
+
+```bash
+mysql -uroot
+```
+
+```sql
+CREATE DATABASE movie_rating CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE USER 'movie_rating'@'localhost' IDENTIFIED BY 'replace-with-a-strong-password';
+GRANT ALL PRIVILEGES ON movie_rating.* TO 'movie_rating'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+```
+
+如果你的阿里云系统默认不是 MySQL 8，而是 MariaDB 或旧版本 MySQL，建议改用阿里云 RDS MySQL 8，或按系统版本安装官方 MySQL 8 源。
 
 ## 4. 获取项目代码
 
@@ -67,21 +91,28 @@ nano .env
 ```env
 PORT=3000
 SITE_NAME=新片评分
-DATA_FILE=/opt/movie_rating/data/store.json
+MYSQL_HOST=127.0.0.1
+MYSQL_PORT=3306
+MYSQL_USER=movie_rating
+MYSQL_PASSWORD=replace-with-a-strong-password
+MYSQL_DATABASE=movie_rating
 DOUBAN_CITY=beijing
 ADMIN_SYNC_TOKEN=replace-with-a-long-random-token
 ```
 
 注意：
 
-- `DATA_FILE` 是服务端数据文件位置，评分和评论会保存到这里。
+- 评分和评论会保存到 MySQL 8，不再依赖服务器本地 JSON 文件。
 - `DOUBAN_CITY` 当前示例为 `beijing`，可按需调整。
 - `ADMIN_SYNC_TOKEN` 必须改成足够长的随机字符串。
 
 ## 6. 初始化电影数据
 
+应用启动或执行脚本时会自动创建表，并带有表注释和字段注释。首次上线有两种方式初始化数据。
+
+### 方式 A：重新同步豆瓣正在上映电影
+
 ```bash
-mkdir -p data
 npm run sync
 ```
 
@@ -89,6 +120,34 @@ npm run sync
 
 ```text
 Imported 52 movies from Douban city "beijing".
+```
+
+### 方式 B：迁移本地旧数据
+
+先把本地 `data/store.json` 上传到服务器：
+
+```bash
+scp data/store.json root@your-server-ip:/opt/movie_rating/data/store.json
+```
+
+在服务器执行迁移：
+
+```bash
+cd /opt/movie_rating
+npm run migrate:mysql
+```
+
+如果表已经存在但没有注释，执行：
+
+```bash
+npm run db:comments
+```
+
+检查表和字段注释：
+
+```bash
+mysql -umovie_rating -p movie_rating -e "SHOW TABLE STATUS WHERE Name IN ('movies','ratings','comments','sync_status')\G"
+mysql -umovie_rating -p movie_rating -e "SHOW FULL COLUMNS FROM movies; SHOW FULL COLUMNS FROM ratings; SHOW FULL COLUMNS FROM comments; SHOW FULL COLUMNS FROM sync_status;"
 ```
 
 ## 7. 配置 systemd 后台服务
@@ -263,9 +322,9 @@ npm run sync
 
 ### 评分或评论丢失
 
-确认 `DATA_FILE` 指向服务器持久路径：
+确认服务连接的是同一个 MySQL 数据库：
 
 ```bash
 cat /opt/movie_rating/.env
-ls -lh /opt/movie_rating/data/
+mysql -umovie_rating -p movie_rating -e "SELECT COUNT(*) FROM comments; SELECT COUNT(*) FROM ratings;"
 ```

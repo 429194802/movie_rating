@@ -2,3 +2,5 @@ node_modules
 .next
 *.exe
 .env
+data/*.db
+data/*.db-*

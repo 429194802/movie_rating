@@ -13,9 +13,25 @@ export async function POST(request, { params }) {
   }
 
   const cookieStore = await cookies();
-  const visitorId = cookieStore.get('visitorId')?.value || nanoid(16);
+  const visitorCookie = cookieStore.get('visitorId')?.value;
+  const visitorId = visitorCookie || nanoid(16);
+  const store = getStore();
+  const movie = await store.getMovie(id);
 
-  await getStore().addRating({
+  if (!movie) {
+    return new Response('没有找到这部电影。', { status: 404 });
+  }
+
+  if (!visitorCookie) {
+    cookieStore.set('visitorId', visitorId, {
+      httpOnly: true,
+      sameSite: 'lax',
+      path: '/',
+      maxAge: 60 * 60 * 24 * 365
+    });
+  }
+
+  await store.addRating({
     movieId: id,
     visitorId,
     score

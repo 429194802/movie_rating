@@ -4,15 +4,11 @@ services:
     env: docker
     plan: starter
     autoDeploy: true
-    disk:
-      name: movie-rating-data
-      mountPath: /data
-      sizeGB: 1
     envVars:
       - key: PORT
         value: 3000
-      - key: DATA_FILE
-        value: /data/store.json
+      - key: DATABASE_URL
+        sync: false
       - key: SITE_NAME
         value: 新片评分
       - key: DOUBAN_CITY
