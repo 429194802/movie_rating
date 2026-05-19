@@ -1,0 +1,46 @@
+<%- include('partials/head', { title: siteName }) %>
+<main class="shell">
+  <section class="hero">
+    <div>
+      <p class="eyebrow">正在上映</p>
+      <h1><%= siteName %></h1>
+      <p class="lead">一个只关注观众真实反馈的新片评分站。电影列表会定时从豆瓣正在上映页面同步。</p>
+    </div>
+    <div class="sync-card">
+      <span>最近同步</span>
+      <strong><%= sync.lastSuccessAt ? new Date(sync.lastSuccessAt).toLocaleString('zh-CN') : '尚未成功同步' %></strong>
+      <% if (sync.lastError) { %><small>同步错误：<%= sync.lastError %></small><% } %>
+    </div>
+  </section>
+
+  <% if (!movies.length) { %>
+    <section class="empty">
+      <h2>还没有电影数据</h2>
+      <p>应用启动后会自动同步一次，也可以运行 <code>npm run sync</code> 手动导入。</p>
+    </section>
+  <% } else { %>
+    <section class="movie-grid" aria-label="电影列表">
+      <% movies.forEach((movie) => { %>
+        <article class="movie-card">
+          <a href="/movie/<%= movie.id %>" class="poster-link">
+            <% if (movie.poster) { %>
+              <img src="/poster?url=<%= encodeURIComponent(movie.poster) %>" alt="<%= movie.title %> 海报">
+            <% } else { %>
+              <div class="poster-fallback"><%= movie.title.slice(0, 2) %></div>
+            <% } %>
+          </a>
+          <div class="movie-card-body">
+            <h2><a href="/movie/<%= movie.id %>"><%= movie.title %></a></h2>
+            <p><%= [movie.genre, movie.region, movie.releaseDate].filter(Boolean).join(' / ') %></p>
+            <div class="score-row">
+              <span>本站 <strong><%= movie.averageScore || '暂无' %></strong></span>
+              <span>豆瓣 <strong><%= movie.doubanScore || '暂无' %></strong></span>
+            </div>
+            <a class="button" href="/movie/<%= movie.id %>">评分与评论</a>
+          </div>
+        </article>
+      <% }) %>
+    </section>
+  <% } %>
+</main>
+<%- include('partials/footer') %>

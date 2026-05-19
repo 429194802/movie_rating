@@ -1,0 +1,30 @@
+{
+  "name": "movie-rating",
+  "version": "1.0.0",
+  "description": "A movie rating and review site with scheduled Douban now-playing imports.",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "sync": "node scripts/sync.js",
+    "verify:ui": "node scripts/verify-ui.js",
+    "check": "node --check src/server.js && node --check src/lib/store.js && node --check src/lib/douban.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.3",
+    "nanoid": "^5.0.9"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

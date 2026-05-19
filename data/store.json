@@ -1,0 +1,1212 @@
+{
+  "movies": [
+    {
+      "id": "37116446",
+      "title": "给阿嬷的情书",
+      "doubanScore": 9.1,
+      "doubanVotes": 509016,
+      "releaseDate": "2026",
+      "duration": "118分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "蓝鸿春"
+      ],
+      "casts": [
+        "李思潼",
+        "王彦桐",
+        "吴少卿"
+      ],
+      "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2931851430.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/37116446/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36311696",
+      "title": "一个男人和一个女人",
+      "doubanScore": 0,
+      "doubanVotes": 8905,
+      "releaseDate": "2024",
+      "duration": "113分钟",
+      "region": "中国大陆 中国香港",
+      "genre": "",
+      "directors": [
+        "管虎"
+      ],
+      "casts": [
+        "黄渤",
+        "倪妮",
+        "周汉宁"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2932071585.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36311696/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36117834",
+      "title": "错过了，遗憾吗？",
+      "doubanScore": 0,
+      "doubanVotes": 0,
+      "releaseDate": "2026",
+      "duration": "90分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "黄石"
+      ],
+      "casts": [
+        "庄达菲",
+        "王安宇",
+        "白客"
+      ],
+      "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2932202711.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36117834/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36539561",
+      "title": "爱情城事",
+      "doubanScore": 5.7,
+      "doubanVotes": 290,
+      "releaseDate": "2023",
+      "duration": "115分钟(中国大陆)",
+      "region": "中国台湾",
+      "genre": "",
+      "directors": [
+        "张吉安 黄绮琳 许承杰 帕武·多杰 刘权慧 殷振豪 哈希德·阿米 黄婕妤 李心洁 谢沛如"
+      ],
+      "casts": [
+        "伍佰",
+        "李心洁",
+        "郭书瑶"
+      ],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932378813.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36539561/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36918069",
+      "title": "绵羊侦探团",
+      "doubanScore": 0,
+      "doubanVotes": 16870,
+      "releaseDate": "2026",
+      "duration": "110分钟",
+      "region": "爱尔兰 英国 德国 美国",
+      "genre": "",
+      "directors": [
+        "凯尔·巴尔达"
+      ],
+      "casts": [
+        "休·杰克曼",
+        "尼可拉斯·博朗",
+        "尼古拉斯·加利齐纳"
+      ],
+      "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2931958860.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36918069/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36965301",
+      "title": "消失的人",
+      "doubanScore": 7.4,
+      "doubanVotes": 84874,
+      "releaseDate": "2026",
+      "duration": "140分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "程伟豪"
+      ],
+      "casts": [
+        "郑恺",
+        "刘浩存",
+        "邱泽"
+      ],
+      "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2931601069.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36965301/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "1294941",
+      "title": "大白鲨",
+      "doubanScore": 7.8,
+      "doubanVotes": 125606,
+      "releaseDate": "1975",
+      "duration": "124 分钟",
+      "region": "美国",
+      "genre": "",
+      "directors": [
+        "史蒂文·斯皮尔伯格"
+      ],
+      "casts": [
+        "罗伊·谢德",
+        "罗伯特·肖",
+        "理查德·德莱福斯"
+      ],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932006122.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/1294941/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "37332784",
+      "title": "我，许可",
+      "doubanScore": 8.3,
+      "doubanVotes": 230367,
+      "releaseDate": "2026",
+      "duration": "118分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "杨荔钠"
+      ],
+      "casts": [
+        "文淇",
+        "秦海璐",
+        "白客"
+      ],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2932103692.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/37332784/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36857924",
+      "title": "寒战1994",
+      "doubanScore": 7.2,
+      "doubanVotes": 90516,
+      "releaseDate": "2026",
+      "duration": "117分钟",
+      "region": "中国香港 中国大陆",
+      "genre": "",
+      "directors": [
+        "梁乐民"
+      ],
+      "casts": [
+        "吴彦祖",
+        "刘俊谦",
+        "吴慷仁"
+      ],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2931924492.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36857924/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36070920",
+      "title": "再见，朱莉娅",
+      "doubanScore": 8.2,
+      "doubanVotes": 8319,
+      "releaseDate": "2023",
+      "duration": "115分钟(中国大陆)",
+      "region": "苏丹 瑞典 德国 沙特阿拉伯 法国 埃及",
+      "genre": "",
+      "directors": [
+        "穆罕默德·科尔多法尼"
+      ],
+      "casts": [
+        "艾曼·尤瑟夫",
+        "西兰·里亚克",
+        "纳扎尔·戈马"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931848904.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36070920/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "1295409",
+      "title": "纵横四海",
+      "doubanScore": 8.8,
+      "doubanVotes": 488567,
+      "releaseDate": "1991",
+      "duration": "109分钟",
+      "region": "中国香港",
+      "genre": "",
+      "directors": [
+        "吴宇森"
+      ],
+      "casts": [
+        "周润发",
+        "张国荣",
+        "钟楚红"
+      ],
+      "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2931740648.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/1295409/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "35754057",
+      "title": "真人快打2",
+      "doubanScore": 6.3,
+      "doubanVotes": 12455,
+      "releaseDate": "2026",
+      "duration": "116分钟",
+      "region": "美国",
+      "genre": "",
+      "directors": [
+        "西蒙·麦奎德"
+      ],
+      "casts": [
+        "卡尔·厄本",
+        "阿德莱恩·鲁道夫",
+        "杰西卡·麦克娜美"
+      ],
+      "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2932271729.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/35754057/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36956594",
+      "title": "穿普拉达的女王2",
+      "doubanScore": 6.6,
+      "doubanVotes": 60099,
+      "releaseDate": "2026",
+      "duration": "120分钟",
+      "region": "美国",
+      "genre": "",
+      "directors": [
+        "大卫·弗兰科尔"
+      ],
+      "casts": [
+        "梅丽尔·斯特里普",
+        "安妮·海瑟薇",
+        "艾米莉·布朗特"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2930952195.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36956594/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "37379599",
+      "title": "10间敢死队",
+      "doubanScore": 6.8,
+      "doubanVotes": 19400,
+      "releaseDate": "2026",
+      "duration": "120分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "陈思诚"
+      ],
+      "casts": [
+        "蒋龙",
+        "齐溪",
+        "杨超越"
+      ],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2931584782.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/37379599/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "26967871",
+      "title": "寂静的朋友",
+      "doubanScore": 7.8,
+      "doubanVotes": 29943,
+      "releaseDate": "2025",
+      "duration": "147分钟",
+      "region": "德国 匈牙利 法国 中国大陆",
+      "genre": "",
+      "directors": [
+        "伊尔蒂科·茵叶蒂"
+      ],
+      "casts": [
+        "梁朝伟",
+        "卢娜·韦德勒",
+        "恩佐·布鲁姆"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931581706.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/26967871/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "35948919",
+      "title": "迈克尔·杰克逊：巨星之路",
+      "doubanScore": 7.5,
+      "doubanVotes": 47459,
+      "releaseDate": "2026",
+      "duration": "128分钟",
+      "region": "美国",
+      "genre": "",
+      "directors": [
+        "安东尼·福奎阿"
+      ],
+      "casts": [
+        "贾法尔·杰克逊",
+        "尼娅·朗",
+        "朱利亚诺·瓦尔迪"
+      ],
+      "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2931063628.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/35948919/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "35010610",
+      "title": "挽救计划",
+      "doubanScore": 8.6,
+      "doubanVotes": 450784,
+      "releaseDate": "2026",
+      "duration": "156分钟",
+      "region": "美国",
+      "genre": "",
+      "directors": [
+        "菲尔·罗德 克里斯托弗·米勒"
+      ],
+      "casts": [
+        "瑞恩·高斯林",
+        "桑德拉·惠勒",
+        "詹姆斯·奥尔蒂斯"
+      ],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2931370692.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/35010610/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "35903155",
+      "title": "错时告白",
+      "doubanScore": 7.1,
+      "doubanVotes": 1446,
+      "releaseDate": "2022",
+      "duration": "124分钟",
+      "region": "泰国",
+      "genre": "",
+      "directors": [
+        "西提彭·科桐塔维"
+      ],
+      "casts": [
+        "翁拉维·那提通",
+        "普莉恩皮察雅·克玛拉娜君",
+        "帕查拉·奇拉锡瓦特"
+      ],
+      "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2931411199.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/35903155/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36413501",
+      "title": "情感价值",
+      "doubanScore": 7.6,
+      "doubanVotes": 43893,
+      "releaseDate": "2025",
+      "duration": "133分钟",
+      "region": "挪威 德国 丹麦 法国 瑞典 英国",
+      "genre": "",
+      "directors": [
+        "约阿希姆·提尔"
+      ],
+      "casts": [
+        "雷娜特·赖因斯夫",
+        "斯特兰·斯卡斯加德",
+        "英加·伊布斯多特·利勒亚斯"
+      ],
+      "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2931602981.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36413501/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36500314",
+      "title": "青铜葵花",
+      "doubanScore": 0,
+      "doubanVotes": 1796,
+      "releaseDate": "2025",
+      "duration": "121分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "陈坤厚"
+      ],
+      "casts": [
+        "韩陌",
+        "张宇轩",
+        "冯雪雅"
+      ],
+      "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2931382259.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36500314/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "37534660",
+      "title": "门牙",
+      "doubanScore": 0,
+      "doubanVotes": 2007,
+      "releaseDate": "2026",
+      "duration": "105分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "李心"
+      ],
+      "casts": [
+        "章宇",
+        "陈昊宇",
+        "周政杰"
+      ],
+      "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2931656808.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/37534660/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36634658",
+      "title": "万桐书",
+      "doubanScore": 0,
+      "doubanVotes": 892,
+      "releaseDate": "2026",
+      "duration": "135分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "西尔扎提·亚合甫"
+      ],
+      "casts": [
+        "李健",
+        "吾守尔·赛来",
+        "木克热木·开赛尔"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931909375.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36634658/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36806351",
+      "title": "超级马力欧银河大电影",
+      "doubanScore": 7,
+      "doubanVotes": 43098,
+      "releaseDate": "2026",
+      "duration": "99分钟",
+      "region": "日本 美国",
+      "genre": "",
+      "directors": [
+        "亚伦·霍瓦斯 迈克尔·杰勒尼克"
+      ],
+      "casts": [
+        "克里斯·帕拉特",
+        "安雅·泰勒-乔伊",
+        "查理·戴"
+      ],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2930472372.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36806351/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "37434315",
+      "title": "凌晨两点半4",
+      "doubanScore": 0,
+      "doubanVotes": 59,
+      "releaseDate": "2026",
+      "duration": "93分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "王盈希 陈京"
+      ],
+      "casts": [
+        "周昊明",
+        "张露文",
+        "李阔"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2932181976.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/37434315/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36697078",
+      "title": "密探",
+      "doubanScore": 7.8,
+      "doubanVotes": 25797,
+      "releaseDate": "2025",
+      "duration": "160分钟(中国大陆)",
+      "region": "巴西 法国 荷兰 德国",
+      "genre": "",
+      "directors": [
+        "小克莱伯·门多萨"
+      ],
+      "casts": [
+        "瓦格纳·马拉",
+        "乌多·基尔",
+        "加布里埃尔·利昂纳"
+      ],
+      "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2930979680.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36697078/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "37193250",
+      "title": "阳光女子合唱团",
+      "doubanScore": 7.4,
+      "doubanVotes": 27189,
+      "releaseDate": "2025",
+      "duration": "134分钟",
+      "region": "中国台湾",
+      "genre": "",
+      "directors": [
+        "林孝谦"
+      ],
+      "casts": [
+        "陈意涵",
+        "翁倩玉",
+        "钟欣凌"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2930838026.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/37193250/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "35516786",
+      "title": "燃比娃",
+      "doubanScore": 6.8,
+      "doubanVotes": 3348,
+      "releaseDate": "2025",
+      "duration": "85分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "李文愉"
+      ],
+      "casts": [
+        "杨皓宇",
+        "周迅",
+        "贝伊勒"
+      ],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2931409497.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/35516786/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36053104",
+      "title": "植物学家",
+      "doubanScore": 6.7,
+      "doubanVotes": 6051,
+      "releaseDate": "2025",
+      "duration": "96分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "景一"
+      ],
+      "casts": [
+        "叶斯力·加和斯力克",
+        "任紫晗",
+        "埃拉马赞·萨赫特"
+      ],
+      "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2931582988.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36053104/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "37375594",
+      "title": "夜王",
+      "doubanScore": 7.8,
+      "doubanVotes": 103350,
+      "releaseDate": "2026",
+      "duration": "133分钟(中国大陆)",
+      "region": "中国大陆 中国香港",
+      "genre": "",
+      "directors": [
+        "吴炜伦"
+      ],
+      "casts": [
+        "黄子华",
+        "郑秀文",
+        "王丹妮"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2929673775.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/37375594/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "37818637",
+      "title": "蝴蝶楼·惊魂",
+      "doubanScore": 5.4,
+      "doubanVotes": 4320,
+      "releaseDate": "2026",
+      "duration": "91分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "郝瀚"
+      ],
+      "casts": [
+        "李梦",
+        "刘思维",
+        "姜卓君"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931004055.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/37818637/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36999793",
+      "title": "河狸变身计划",
+      "doubanScore": 7.4,
+      "doubanVotes": 95081,
+      "releaseDate": "2026",
+      "duration": "105分钟",
+      "region": "美国",
+      "genre": "",
+      "directors": [
+        "丹尼尔·钟"
+      ],
+      "casts": [
+        "佩珀·柯达",
+        "鲍比·莫尼汉",
+        "乔恩·哈姆"
+      ],
+      "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2929759261.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36999793/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "37193307",
+      "title": "猪猪侠大电影之竞速小英雄",
+      "doubanScore": 0,
+      "doubanVotes": 347,
+      "releaseDate": "2026",
+      "duration": "86分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "古燕梅 王永健 钟彧"
+      ],
+      "casts": [],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2931029277.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/37193307/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "37293378",
+      "title": "非穷尽列举",
+      "doubanScore": 9.1,
+      "doubanVotes": 73682,
+      "releaseDate": "2025",
+      "duration": "112分钟",
+      "region": "英国",
+      "genre": "",
+      "directors": [
+        "贾斯汀·马丁"
+      ],
+      "casts": [
+        "裴淳华",
+        "贾斯珀·塔博特",
+        "杰米·格洛弗"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2930171065.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/37293378/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "38362649",
+      "title": "登月(第一部)",
+      "doubanScore": 0,
+      "doubanVotes": 1962,
+      "releaseDate": "2026",
+      "duration": "92分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "乔岩 狄欣 郭业琦"
+      ],
+      "casts": [
+        "吴京"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931602704.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/38362649/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36963690",
+      "title": "呼啸山庄",
+      "doubanScore": 6.2,
+      "doubanVotes": 93947,
+      "releaseDate": "2026",
+      "duration": "137分钟",
+      "region": "英国 美国",
+      "genre": "",
+      "directors": [
+        "埃默拉尔德·芬内尔"
+      ],
+      "casts": [
+        "玛格特·罗比",
+        "雅各布·艾洛蒂",
+        "周洪"
+      ],
+      "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2930238411.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36963690/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "35159709",
+      "title": "天才游戏",
+      "doubanScore": 5.9,
+      "doubanVotes": 43057,
+      "releaseDate": "2026",
+      "duration": "96分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "程亮"
+      ],
+      "casts": [
+        "彭昱畅",
+        "丁禹兮",
+        "李蔓瑄"
+      ],
+      "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2931149949.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/35159709/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "36189374",
+      "title": "我在苏州学非遗",
+      "doubanScore": 0,
+      "doubanVotes": 240,
+      "releaseDate": "2026",
+      "duration": "80分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "萧寒"
+      ],
+      "casts": [
+        "陈飞宇"
+      ],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2887654333.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/36189374/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "37184192",
+      "title": "午夜怨灵",
+      "doubanScore": 0,
+      "doubanVotes": 6,
+      "releaseDate": "2026",
+      "duration": "90分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "戴晗 胡帅"
+      ],
+      "casts": [
+        "刘洛",
+        "何泽远",
+        "麦杉杉"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2917047686.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/37184192/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "38458879",
+      "title": "太湖英雄",
+      "doubanScore": 0,
+      "doubanVotes": 19,
+      "releaseDate": "2026",
+      "duration": "109分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "陈伟田"
+      ],
+      "casts": [
+        "孙洪涛",
+        "阎隽溪",
+        "范雨林"
+      ],
+      "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2932352221.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/38458879/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "1292225",
+      "title": "闪灵",
+      "doubanScore": 8.3,
+      "doubanVotes": 636202,
+      "releaseDate": "1980",
+      "duration": "119分钟(欧洲版)",
+      "region": "英国 美国",
+      "genre": "",
+      "directors": [
+        "斯坦利·库布里克"
+      ],
+      "casts": [
+        "杰克·尼科尔森",
+        "谢莉·杜瓦尔",
+        "丹尼·劳埃德"
+      ],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2928985187.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/1292225/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "38393420",
+      "title": "怖偶惊情",
+      "doubanScore": 0,
+      "doubanVotes": 74,
+      "releaseDate": "2026",
+      "duration": "",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "唐明智"
+      ],
+      "casts": [
+        "吴佳欣",
+        "王坤"
+      ],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2931731477.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/38393420/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "38445184",
+      "title": "逢生：直面癌症",
+      "doubanScore": 0,
+      "doubanVotes": 18,
+      "releaseDate": "2026",
+      "duration": "96分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "刘建中"
+      ],
+      "casts": [
+        "樊代明",
+        "郝希山",
+        "樊嘉"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931988675.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/38445184/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "38406961",
+      "title": "勇者无疆",
+      "doubanScore": 0,
+      "doubanVotes": 111,
+      "releaseDate": "2026",
+      "duration": "102分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "翌翔"
+      ],
+      "casts": [
+        "刘思博",
+        "郭艳",
+        "何达"
+      ],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2931240373.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/38406961/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "26642033",
+      "title": "小黄人大眼萌：神偷奶爸前传",
+      "doubanScore": 7.2,
+      "doubanVotes": 181360,
+      "releaseDate": "2022",
+      "duration": "88分钟(中国大陆)",
+      "region": "美国",
+      "genre": "",
+      "directors": [
+        "凯尔·巴尔达 布拉德·埃布尔森 乔纳森·德尔瓦尔"
+      ],
+      "casts": [
+        "史蒂夫·卡瑞尔",
+        "皮埃尔·柯芬",
+        "艾伦·阿金"
+      ],
+      "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2877522569.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/26642033/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "25812712",
+      "title": "神偷奶爸3",
+      "doubanScore": 6.8,
+      "doubanVotes": 289735,
+      "releaseDate": "2017",
+      "duration": "90分钟",
+      "region": "美国",
+      "genre": "",
+      "directors": [
+        "凯尔·巴尔达 皮埃尔·柯芬 埃里克·吉隆"
+      ],
+      "casts": [
+        "史蒂夫·卡瑞尔",
+        "克里斯汀·韦格",
+        "特雷·帕克"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2469070974.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/25812712/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "37388308",
+      "title": "如父如母",
+      "doubanScore": 0,
+      "doubanVotes": 418,
+      "releaseDate": "2026",
+      "duration": "",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "燕文薪"
+      ],
+      "casts": [
+        "孙艺荀",
+        "邢昀",
+        "刘蕾"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2931367405.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/37388308/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "4915857",
+      "title": "神偷奶爸2",
+      "doubanScore": 8.1,
+      "doubanVotes": 476493,
+      "releaseDate": "2013",
+      "duration": "99分钟(中国大陆)",
+      "region": "美国 法国 日本",
+      "genre": "",
+      "directors": [
+        "皮埃尔·柯芬 克里斯·雷纳德"
+      ],
+      "casts": [
+        "史蒂夫·卡瑞尔",
+        "克里斯汀·韦格",
+        "本杰明·布拉特"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2164225595.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/4915857/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "26421039",
+      "title": "穆桂英挂帅(京剧)",
+      "doubanScore": 8.8,
+      "doubanVotes": 977,
+      "releaseDate": "2017",
+      "duration": "109分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "夏钢"
+      ],
+      "casts": [
+        "李胜素",
+        "于魁智",
+        "袁慧琴"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2456564275.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/26421039/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "27005365",
+      "title": "谢瑶环(京剧)",
+      "doubanScore": 0,
+      "doubanVotes": 83,
+      "releaseDate": "2017",
+      "duration": "113分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "马崇杰"
+      ],
+      "casts": [
+        "丁晓君",
+        "金喜全",
+        "王艳"
+      ],
+      "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2456564071.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/27005365/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "27005362",
+      "title": "赵氏孤儿(京剧)",
+      "doubanScore": 0,
+      "doubanVotes": 139,
+      "releaseDate": "2017",
+      "duration": "106分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "马崇杰"
+      ],
+      "casts": [
+        "朱强",
+        "谭孝曾",
+        "王蓉蓉"
+      ],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2456564393.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/27005362/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "20645021",
+      "title": "龙凤呈祥(京剧)",
+      "doubanScore": 8.5,
+      "doubanVotes": 356,
+      "releaseDate": "2015",
+      "duration": "125分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "保尔夫"
+      ],
+      "casts": [
+        "李维康",
+        "耿其昌",
+        "叶少兰"
+      ],
+      "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2241064475.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/20645021/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    },
+    {
+      "id": "26347311",
+      "title": "状元媒(京剧)",
+      "doubanScore": 8,
+      "doubanVotes": 231,
+      "releaseDate": "2015",
+      "duration": "120分钟",
+      "region": "中国大陆",
+      "genre": "",
+      "directors": [
+        "王好为 李晨声"
+      ],
+      "casts": [
+        "王蓉蓉",
+        "杜镇杰",
+        "谭孝曾"
+      ],
+      "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2241064547.jpg",
+      "doubanUrl": "https://movie.douban.com/subject/26347311/",
+      "isShowing": true,
+      "sourceUpdatedAt": "2026-05-19T18:49:24.713Z"
+    }
+  ],
+  "ratings": [
+    {
+      "id": "9f7d6c4d-ea04-4039-8484-70c12f80bbc9",
+      "movieId": "37116446",
+      "visitorId": "4z1YFOzzdURquwlf",
+      "score": 8,
+      "createdAt": "2026-05-19T18:49:56.705Z",
+      "updatedAt": "2026-05-19T18:49:56.705Z"
+    },
+    {
+      "id": "a29df393-a052-486d-a939-27fa7eccb6ed",
+      "movieId": "37116446",
+      "visitorId": "xc1wuVJArKUrpx3E",
+      "score": 8,
+      "createdAt": "2026-05-19T18:55:03.744Z",
+      "updatedAt": "2026-05-19T18:55:03.744Z"
+    },
+    {
+      "id": "a9415d49-a72e-4d8f-a30c-93031f287eb8",
+      "movieId": "37116446",
+      "visitorId": "Yk-s_E3Yr4huQMTa",
+      "score": 8,
+      "createdAt": "2026-05-19T19:01:44.031Z",
+      "updatedAt": "2026-05-19T19:01:44.031Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "beaa5343-044a-4002-9830-797c04e64b8e",
+      "movieId": "37116446",
+      "visitorId": "4z1YFOzzdURquwlf",
+      "author": "QA user",
+      "body": "Local acceptance comment: rating and comment flow works.",
+      "createdAt": "2026-05-19T18:49:56.773Z"
+    },
+    {
+      "id": "4a630f3f-623e-456e-a25c-ba9e504a7d72",
+      "movieId": "37116446",
+      "visitorId": "xc1wuVJArKUrpx3E",
+      "author": "QA user",
+      "body": "Local acceptance comment: rating and comment flow works.",
+      "createdAt": "2026-05-19T18:55:03.826Z"
+    },
+    {
+      "id": "56c5f693-65e0-4728-917f-0bb6551e0303",
+      "movieId": "37116446",
+      "visitorId": "Yk-s_E3Yr4huQMTa",
+      "author": "QA user",
+      "body": "Local acceptance comment: rating and comment flow works.",
+      "createdAt": "2026-05-19T19:01:45.191Z"
+    },
+    {
+      "id": "5e96c789-fe82-4326-8ecb-507c1d67905a",
+      "movieId": "38393420",
+      "visitorId": "mi6RpRX1EgIYJPA2",
+      "author": "测试",
+      "body": "111",
+      "createdAt": "2026-05-19T19:02:22.509Z"
+    },
+    {
+      "id": "c39666b2-6d90-4d6c-b8b7-9852a599ec7c",
+      "movieId": "37116446",
+      "visitorId": "mi6RpRX1EgIYJPA2",
+      "author": "测试",
+      "body": "5666",
+      "createdAt": "2026-05-19T19:02:54.151Z"
+    }
+  ],
+  "sync": {
+    "lastRunAt": "2026-05-19T18:49:24.713Z",
+    "lastSuccessAt": "2026-05-19T18:49:24.713Z",
+    "lastError": null
+  }
+}

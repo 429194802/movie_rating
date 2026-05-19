@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: movie-rating
+    env: docker
+    plan: starter
+    autoDeploy: true
+    disk:
+      name: movie-rating-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: DATA_FILE
+        value: /data/store.json
+      - key: SITE_NAME
+        value: 新片评分
+      - key: DOUBAN_CITY
+        value: beijing
+      - key: SYNC_CRON
+        value: 0 */6 * * *
+      - key: ADMIN_SYNC_TOKEN
+        generateValue: true
