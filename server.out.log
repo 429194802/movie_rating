@@ -15,3 +15,12 @@
  ✓ Compiled /movie/[id] in 1145ms (725 modules)
  GET /movie/37116446 200 in 1484ms
  GET /movie/37116446 200 in 1196ms
+ ✓ Compiled / in 322ms (727 modules)
+ GET / 200 in 896ms
+ GET /movie/37116446 200 in 145ms
+ ✓ Compiled /movie/[id]/comments in 356ms (743 modules)
+ POST /movie/37116446/comments 303 in 1178ms
+ GET /movie/37116446 200 in 215ms
+ ✓ Compiled in 274ms (505 modules)
+ GET /movie/37116446 200 in 372ms
+ ✓ Compiled in 110ms (221 modules)
