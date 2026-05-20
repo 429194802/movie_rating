@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getStore } from '../lib/store.js';
+import { appPath } from '../lib/paths.js';
 
 const siteName = process.env.SITE_NAME || '新片评分';
 
@@ -10,7 +11,7 @@ function formatDateTime(value) {
 }
 
 function posterUrl(poster) {
-  return `/poster?url=${encodeURIComponent(poster)}`;
+  return appPath(`/poster?url=${encodeURIComponent(poster)}`);
 }
 
 export default async function HomePage() {

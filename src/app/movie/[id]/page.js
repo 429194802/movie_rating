@@ -1,11 +1,12 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getStore } from '../../../lib/store.js';
+import { appPath } from '../../../lib/paths.js';
 
 export const dynamic = 'force-dynamic';
 
 function posterUrl(poster) {
-  return `/poster?url=${encodeURIComponent(poster)}`;
+  return appPath(`/poster?url=${encodeURIComponent(poster)}`);
 }
 
 function formatDateTime(value) {
@@ -62,14 +63,14 @@ export default async function MoviePage({ params }) {
       </section>
 
       <section className="forms">
-        <form method="post" action={`/movie/${movie.id}/rating`} className="panel">
+        <form method="post" action={appPath(`/movie/${movie.id}/rating`)} className="panel">
           <h2>给这部电影评分</h2>
           <label htmlFor="score">评分（1-10）</label>
           <input id="score" name="score" type="number" min="1" max="10" step="1" required />
           <button type="submit">提交评分</button>
         </form>
 
-        <form method="post" action={`/movie/${movie.id}/comments`} className="panel">
+        <form method="post" action={appPath(`/movie/${movie.id}/comments`)} className="panel">
           <h2>写短评</h2>
           <label htmlFor="author">昵称</label>
           <input id="author" name="author" maxLength="24" placeholder="匿名用户" />

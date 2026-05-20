@@ -1,2 +1,56 @@
  ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
  ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Error: Could not find the module "F:\codex_project\movie_rating\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '2317184450'
+}
+ ⨯ Error: Could not find the module "F:\codex_project\movie_rating\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1739279174'
+}
+ ⨯ Error: Could not find the module "F:\codex_project\movie_rating\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1739279174'
+}
+ ⨯ Error: Could not find the module "F:\codex_project\movie_rating\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1739279174'
+}
+ ⨯ Error: Could not find the module "F:\codex_project\movie_rating\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '2317184450'
+}
+ ⨯ Error: Could not find the module "F:\codex_project\movie_rating\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '2317184450'
+}
+ ⨯ [TypeError: Cannot read properties of undefined (reading 'call')] {
+  digest: '3523559425'
+}
+ ⨯ Error: Could not find the module "F:\codex_project\movie_rating\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '2317184450'
+}
+[TypeError: Cannot read properties of undefined (reading 'call')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading 'call')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading 'call')] {
+  page: '/'
+}
+ ⨯ Failed to generate static paths for /movie/[id]/comments:
+[Error: Cannot find module './vendor-chunks/mysql2.js'
+Require stack:
+- F:\codex_project\movie_rating\.next\server\webpack-runtime.js
+- F:\codex_project\movie_rating\.next\server\app\movie\[id]\comments\route.js
+- F:\codex_project\movie_rating\node_modules\next\dist\server\require.js
+- F:\codex_project\movie_rating\node_modules\next\dist\server\load-components.js
+- F:\codex_project\movie_rating\node_modules\next\dist\build\utils.js
+- F:\codex_project\movie_rating\node_modules\next\dist\server\dev\static-paths-worker.js
+- F:\codex_project\movie_rating\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...

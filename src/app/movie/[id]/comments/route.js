@@ -2,6 +2,7 @@ import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { nanoid } from 'nanoid';
 import { getStore } from '../../../../lib/store.js';
+import { appPath, basePath } from '../../../../lib/paths.js';
 
 export async function POST(request, { params }) {
   const { id } = await params;
@@ -26,7 +27,7 @@ export async function POST(request, { params }) {
     cookieStore.set('visitorId', visitorId, {
       httpOnly: true,
       sameSite: 'lax',
-      path: '/',
+      path: basePath || '/',
       maxAge: 60 * 60 * 24 * 365
     });
   }
@@ -38,5 +39,5 @@ export async function POST(request, { params }) {
     body
   });
 
-  redirect(`/movie/${id}#comments`);
+  redirect(appPath(`/movie/${id}#comments`));
 }

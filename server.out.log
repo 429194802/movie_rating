@@ -24,3 +24,16 @@
  ✓ Compiled in 274ms (505 modules)
  GET /movie/37116446 200 in 372ms
  ✓ Compiled in 110ms (221 modules)
+ ✓ Compiled / in 438ms (520 modules)
+ ✓ Compiled (522 modules)
+ GET /movie/37116446/comments 405 in 900ms
+ GET / 500 in 3907ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 638ms (1090 modules)
+   ▲ Next.js 15.5.18
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 4.8s
