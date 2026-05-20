@@ -31,7 +31,7 @@ export default async function MoviePage({ params }) {
 
   return (
     <main className="shell">
-      <Link className="back-link" href="/">返回列表</Link>
+      <Link className="back-link" href={appPath('/')}>返回列表</Link>
       <section className="detail">
         <div className="detail-poster">
           {movie.poster ? (

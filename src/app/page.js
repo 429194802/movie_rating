@@ -42,7 +42,7 @@ export default async function HomePage() {
         <section className="movie-grid" aria-label="电影列表">
           {movies.map((movie) => (
             <article className="movie-card" key={movie.id}>
-              <Link href={`/movie/${movie.id}`} className="poster-link">
+              <Link href={appPath(`/movie/${movie.id}`)} className="poster-link">
                 {movie.poster ? (
                   <img src={posterUrl(movie.poster)} alt={`${movie.title} 海报`} />
                 ) : (
@@ -50,13 +50,13 @@ export default async function HomePage() {
                 )}
               </Link>
               <div className="movie-card-body">
-                <h2><Link href={`/movie/${movie.id}`}>{movie.title}</Link></h2>
+                <h2><Link href={appPath(`/movie/${movie.id}`)}>{movie.title}</Link></h2>
                 <p>{[movie.genre, movie.region, movie.releaseDate].filter(Boolean).join(' / ')}</p>
                 <div className="score-row">
                   <span>本站 <strong>{movie.averageScore || '暂无'}</strong></span>
                   <span>豆瓣 <strong>{movie.doubanScore || '暂无'}</strong></span>
                 </div>
-                <Link className="button" href={`/movie/${movie.id}`}>评分与评论</Link>
+                <Link className="button" href={appPath(`/movie/${movie.id}`)}>评分与评论</Link>
               </div>
             </article>
           ))}

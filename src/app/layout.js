@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { appPath } from '../lib/paths.js';
 import './globals.css';
 
 const siteName = process.env.SITE_NAME || '新片评分';
@@ -13,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="zh-CN">
       <body>
         <header className="topbar">
-          <Link href="/" className="brand">{siteName}</Link>
+          <Link href={appPath('/')} className="brand">{siteName}</Link>
         </header>
         {children}
         <footer className="footer">
